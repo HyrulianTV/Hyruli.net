@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyruli.net</title>
+    <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/1737846866761728000/UH4TRRDW_400x400.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tahoma:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Tahoma', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: url('https://archive.org/download/windows-xp-bliss-4k-lu-3840x2400/windows-xp-bliss-4k-lu-3840x2400.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #FFF;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+        header {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid #0078D7;
+            margin-right: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        header h2 {
+            font-size: 1.5em;
+            color: #FFF;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2em;
+            color: #FFF;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+        h2 {
+            margin-bottom: 30px;
+            font-size: 1.5em;
+            color: #FFF;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+        .social-links {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .social-links li {
+            margin: 10px 0;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #FFF;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s;
+            display: flex;
+            align-items: center;
+        }
+        .social-links a i {
+            margin-right: 10px;
+        }
+        .social-links a:hover {
+            color: #d3d3d3;
+        }
+        .social-button {
+            padding: 10px 20px;
+            border-radius: 30px;
+            background-color: #0078D7;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 5px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .social-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+        .copyright {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            font-size: 10px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://pbs.twimg.com/profile_images/1737846866761728000/UH4TRRDW_400x400.jpg" alt="Profile Picture">
+        <h2>Hyrulian</h2>
+    </header>
+    <h1>Welcome to Hyruli.net!</h1>
+    <h2>Find me across the net:</h2>
+    <ul class="social-links">
+        <li>
+            <a href="https://www.youtube.com/Hyrulian" target="_blank" class="social-button">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+        </li>
+        <li>
+            <a href="https://open.spotify.com/show/6YIeZvU0QlfPBYV0hKKraR" target="_blank" class="social-button">
+                <i class="fab fa-spotify"></i> Switched 
+                Podcast
+            </a>
+        </li>
+        <li>
+            <a href="https://www.tiktok.com/@Hyrulian" target="_blank" class="social-button">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/hyruliantv" target="_blank" class="social-button">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </li>
+    </ul>
+    <div class="copyright">ChatGPT helped me make this because I dropped outta school. Stay in school kids.</div>
+</body>
+</html>
